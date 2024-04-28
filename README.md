@@ -3,7 +3,7 @@ An implementation of a Natural Language Interface for Relational Databases
 The database we have created is a "MusicShop" that includes 5 tables: Albums, Songs, Customers, Orders, and OrderItems.
 
 ## Some prior information
-The .sql files must be run on a local MySQL server, as we implement the existing code into a remote server currently.
+The .sql files must be run on a local MySQL server, as we work on eventually implementing the existing code into a remote server successfully.
 Make sure the 'table-creations.sql' file is run first, then 'dummy-data.sql' to insert some records.
 Then follow the instructions below to get the MySQL connector running and so you can run a few basic queries.
 
