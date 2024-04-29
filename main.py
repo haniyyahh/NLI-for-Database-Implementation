@@ -10,6 +10,9 @@ db = mysql.connector.connect(
 
 cursor = db.cursor()
 
+# The following queries from a test database, created before the implementation of the project skewed into a different direction.
+# The data queried can all be found in 'table-creations.sql' and 'dummy-data.sql'.
+
 # QUERY: how many songs in the shop?
 query1 = "SELECT COUNT(*) AS total_songs FROM Songs;"
 cursor.execute(query1)
